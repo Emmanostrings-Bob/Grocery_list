@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Rubik Puddles', cursive;
+    background: conic-gradient(from -90deg at 25% 115%, #ff0000, #ff0066, #ff00cc, #cc00ff, #6600ff, #0000ff, #0000ff, #0000ff, #0000ff);
+   
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+}
+
+.groceries{
+
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: #f4f4f4;
+    box-shadow: 10px 10px 24px 24px rgb(0, 0, 0, 0.5);
+}
+
+.groceries h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+.groceries i{
+    font-size: 2rem;
+    color: rgb(255, 0, 238);
+}
+
+.groceries input{
+    font-family: inherit;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+#allItems h2{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+
+@media(max-width:480px){
+    .groceries h1{
+        font-size: 2rem;
+    }
+    .groceries i{
+        font-size: 1.5rem;
+    }
+    .groceries input{
+        font-size: 1rem;
+    }
+    #allItems h2{
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+}
